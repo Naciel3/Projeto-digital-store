@@ -1,0 +1,28 @@
+.product-options {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.option {
+    border: 1px solid var(--light-gray-2);
+    background: var(--white);
+    color: var(--dark-gray-2);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.option.square {
+min-width: 46px;
+height: 46px;
+padding: 0 12px;
+}
+
+.option.circle {
+    width: 31px;
+    height: 31px;
+    padding: 0;
+}
+.option.selected {
+    border: 2px solid var(--primary);
+}
