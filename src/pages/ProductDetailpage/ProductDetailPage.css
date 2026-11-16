@@ -1,0 +1,154 @@
+.detail-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.breadcrumb span {
+  color: #1f1f1f;
+}
+
+.detail-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+}
+
+.detail-image img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.detail-info h1 {
+  font-size: 32px;
+  color: #1f1f1f;
+}
+
+.detail-ref {
+  font-size: 12px;
+  margin: 8px 0 12px;
+}
+
+.detail-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.stars {
+  color: #ffb31f;
+}
+
+.rating-badge {
+  background: #f6aa1c;
+  color: #fff;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-weight: 700;
+}
+
+.detail-price {
+  margin: 20px 0;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.detail-price strong {
+  font-size: 32px;
+  color: #1f1f1f;
+}
+
+.detail-price .old {
+  color: #8f8f8f;
+  text-decoration: line-through;
+}
+
+.detail-info h2 {
+  font-size: 14px;
+  color: #8f8f8f;
+  margin: 20px 0 8px;
+}
+
+.sizes {
+  display: flex;
+  gap: 8px;
+}
+
+.sizes button {
+  width: 46px;
+  height: 46px;
+  border: 1px solid #8f8f8f;
+  border-radius: 4px;
+  background: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.sizes button.active {
+  background: #c92071;
+  border-color: #c92071;
+  color: #fff;
+}
+
+.colors {
+  display: flex;
+  gap: 12px;
+}
+
+.colors button {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  outline: 1px solid transparent;
+  cursor: pointer;
+}
+
+.colors button.active {
+  outline-color: #c92071;
+}
+
+.buy-button {
+  margin-top: 28px;
+  width: 220px;
+  padding: 14px 0;
+  border: none;
+  border-radius: 8px;
+  background: #ffb31f;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buy-button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.hint {
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+@media (max-width: 800px) {
+  .detail-content {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .detail-info h1 {
+    font-size: 24px;
+  }
+
+  .buy-button {
+    width: 100%;
+  }
+}
