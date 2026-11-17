@@ -1,4 +1,4 @@
-import ProductCard from '../ProductCard/ProductCard';
+import ProductCard from '../productCard/ProductCard';
 import './ProductListing.css';
 
 function ProductListing({ products, columns = 4 }) {

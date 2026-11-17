@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Layout from '../Layout/Layout';
+import Layout from '../layout/Layout';
 import Section from '../../components/Section/Section';
 import ProductListing from '../../components/ProductListing/ProductListing';
 import Gallery from '../../components/Gallery/Gallery';

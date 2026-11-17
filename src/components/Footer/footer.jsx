@@ -1,14 +1,14 @@
 import { Link } from 'react-router-dom';
-import Logo from '../Logo/Logo';
+import Logo from '../logo/logo';
 import logoWhite from '../../assets/logo-footer.svg';
-import './footer.css';
+import './Footer.css';
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-brand">
-          <logo src={logoWhite}/>
+          <Logo src={logoWhite} alt="Logo da Drip Store" />
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
             temporibus quo quia aut cum est serviços nobis ea autem hic tempora

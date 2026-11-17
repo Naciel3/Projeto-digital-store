@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import Layout from '../Layout/Layout';
+import Layout from '../layout/Layout';
 import Section from '../../components/Section/Section';
-import ProductListing from '../../components/ProductListing/ProductListing';
-import FilterGroup from '../../components/FilterGroup/FilterGroup';
+import ProductListing from '../../components/productListing/ProductListing';
+import FilterGroup from '../../components/filterGroup/FilterGroup';
 import products from '../../data/products';
 import './ProductsPage.css';
 

@@ -1,10 +1,10 @@
 import { useParams } from 'react-router-dom';
-import Layout from '../Layout/Layout';
-import Gallery from '../../components/Gallery/Gallery';
-import BuyBox from '../../components/BuyBox/BuyBox';
-import ProductOptions from '../../components/ProductOptions/ProductOptions';
+import Layout from '../layout/Layout';
+import Gallery from '../../components/gallery/Gallery';
+import BuyBox from '../../components/buyBox/BuyBox';
+import ProductOptions from '../../components/productOptions/ProductOptions';
 import Section from '../../components/Section/Section';
-import ProductListing from '../../components/ProductListing/ProductListing';
+import ProductListing from '../../components/productListing/ProductListing';
 import products from '../../data/products';
 import './ProductDetailPage.css';
 
