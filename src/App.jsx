@@ -1,4 +1,3 @@
-import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/homePage/HomePage';
 import ProductsPage from './pages/productsPage/ProductsPage';
 import ProductDetailPage from './pages/productDetailpage/ProductDetailPage';
